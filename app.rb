@@ -22,6 +22,7 @@ post '/test_request' do
   message =  "Name: #{params[:name]}\n"
   message += "CAPID: #{params[:capid]}\n"
   message += "Email: #{params[:email]}\n"
+  message += "Test: #{params[:Test]}\n"
   message += "Message: #{params[:message]}\n"
 
 
